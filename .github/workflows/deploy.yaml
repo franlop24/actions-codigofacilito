@@ -1,0 +1,15 @@
+name: "Deploy CodigoFacilito"
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  deploy-codigofacilito:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Clonando Repo"
+      - run: echo "Instala dependencias"
+      - run: echo "Realiza migraciones"
+      - run: echo "Ejecuta pruebas"
+      - run: echo "Todo listo XD"
